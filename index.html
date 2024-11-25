@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do</title>
+    <title>Quien se encarga?</title>
     <link rel="stylesheet" href="styles.css">
 
     <!-- FONTS -->
@@ -16,17 +16,34 @@
 <body>
     
     <div class="container">
-        <div class="title">Lista de Tareas</div>
-        <div class="input-span">
-            <input class="input-task" type="text" placeholder="Nueva Tarea">
-            <button class="add-task">Añadir</button>
-        </div>
-        <div class="tasks-div">
-            <ul class="tasks-list">
-            </ul>
-        </div>
+
+        <section id="new-user">
+            <div class="new-user-container">
+                <div class="title">Quien se encarga??</div>
+                <p class="introduccion">Introduccion</p>
+                <input type="text" class="new-name-input" placeholder="Introduce tu nombre">
+                <button class="new-name-btn">Enviar nombre</button>
+                <p class="advertencia">ADVERTENCIA: para cambiar de nombre deberas hablar con los administradores</p>
+            </div>
+        </section>
+
+        <section id="main">
+            <div class="title">Quien se encarga??</div>
+            <div class="input-span">
+                <input class="input-task" type="text" placeholder="Nueva Tarea">
+                <button class="add-task">Añadir</button>
+                <textarea class="input-task-information" placeholder="Añade mas información"></textarea>
+            </div>
+            <div class="tasks-div">
+                <ul class="tasks-list">
+                </ul>
+            </div>
+        </section>
     </div>
 
     <script src="script.js" type="module"></script>
 </body>
 </html>
+
+<!-- <input type="checkbox" id="${taskP}">
+                        <label for="${taskP}">Yo me encargo.</label> -->
